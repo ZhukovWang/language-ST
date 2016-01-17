@@ -1,0 +1,11 @@
+{
+  "name": "language-ST",
+  "version": "0.1.0",
+  "description": "Syntax highlighting for PLC language ST",
+  "repository": "https://github.com/Qian-Jin/language-ST",
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  }
+}

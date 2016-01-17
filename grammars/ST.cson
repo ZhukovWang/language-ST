@@ -1,0 +1,45 @@
+'scopeName':'source.st'
+'name':'PLC-ST'
+'fileTypes':['st']
+'patterns': [
+  {
+    'match': '\\b[0-9]+\\b'
+    'name': 'constant.numeric.st'
+  }
+  {
+    'match':'TRUE|FALSE'
+    'name':'constant.boolean.st'
+  }
+  {
+    'match':'IF|THEN|ELSEIF|ELSE|END_IF'
+    'name':'keyword.st'
+  }
+  {
+    'match':'CASE|THEN|ELSE|END_CASE'
+    'name':'keyword.st'
+  }
+  {
+    'match':'FOR|TO|BY|DO|END_FOR'
+    'name':'keyword.st'
+  }
+  {
+    'match':'REPEAT|UNTIL|END_REPEAT'
+    'name':'keyword.st'
+  }
+  {
+    'match':'WHILE|DO|END_WHILE'
+    'name':'keyword.st'
+  }
+  {
+    'match':'RETURN|EXIT'
+    'name':'keyword.st'
+  }
+  {
+    'match':':='
+    'name':'variable'
+  }
+  {
+    'match':';'
+    'name':'delimiter.st'
+  }
+]
